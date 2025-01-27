@@ -98,7 +98,7 @@ public class HubCommandPlugin {
                     }
                 });
             } else {
-                player.sendMessage(Component.text("The hub server is not available."));
+                player.sendMessage(Component.text(hubServerName + " に接続できません。"));
             }
         }
     }
